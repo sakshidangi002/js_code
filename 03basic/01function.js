@@ -15,28 +15,29 @@
 
 // how to pass object in function
 
-//const user={
-// username:"sakshi",
-// price:399
-//}
-//
-//function handleobject(anyobject){
-//    console.log('username is ${anyobject.username} and price is ${anyobject.price');
-//    
-//}
-//
-////handleobject(user)
-//handleobject({
-//    username:"sakshi",
-//    price:233
-//})
+const user={
+ username:"sakshi",
+ price:399
+}
+
+function handleobject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+
+//handleobject(user)
+
+handleobject({
+   username:"sakshi",
+   price:233
+})
 
 
 // how to pass array in function
-const myarry=[200,400,600]
-
-function myfunction(getarray){
-    return getarray[1]
-
-}
-console.log(myfunction(myarry));
+//const myarry=[200,400,600]
+//
+//function myfunction(getarray){
+//    return getarray[1]
+//
+//}
+//console.log(myfunction(myarry));
